@@ -3,6 +3,16 @@ theme: ./
 layout: intro
 title: Slidev Doli Theme
 colorSchema: 'dark'
+themeConfig:
+ position: 
+  1: right-up
+  2: right-middle
+  3: right-down
+  4: left-down
+  5: left-middle
+  6: left-up
+  7: top-up
+  8: top-down
 ---
 
 # Doli theme <sup class="opacity-70 text-xl"><kbd>Universal</kbd></sup>
@@ -23,7 +33,7 @@ layout: intro
 
 # Inspiration and Advantages
 
-The template style is taken from the PPT presented by Antfu at VueConf 2023
+The template style is taken from the PPT presented by Antfu at viteConf 2023
 
 ### Using the Slidev solution. What is Slidev?
 

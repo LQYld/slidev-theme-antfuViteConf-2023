@@ -1,19 +1,23 @@
 <template>
-  <div class="background-grow transition-all duration-600 ease-in-out green-neon-light opacity-50" :class="currentIllumiation($slidev.nav.currentPage)" />
+  <div class="background-grow transition-all duration-600 ease-in-out green-neon-light opacity-50" :class="currentIllumiation" />
 </template>
 <script setup>
+  import { computed } from "vue"
   const defaultIllumiation = `illumiation-right-up`;
   const illumiationMap = {
-    1: `illumiation-right-up`,
-    2: `illumiation-right-middle`,
-    3: `illumiation-right-down`,
-    4: `illumiation-left-down`,
-    5: `illumiation-left-middle`,
-    6: `illumiation-left-up`,
-    7: `illumiation-top-up`,
-    8: `illumiation-top-down`,
+    [`right-up`]: `illumiation-right-up`,
+    [`right-middle`]: `illumiation-right-middle`,
+    [`right-down`]: `illumiation-right-down`,
+    [`left-down`]: `illumiation-left-down`,
+    [`left-middle`]: `illumiation-left-middle`,
+    [`left-up`]: `illumiation-left-up`,
+    [`top-up`]: `illumiation-top-up`,
+    [`top-down`]: `illumiation-top-down`,
   }
-  const currentIllumiation = (value) => illumiationMap[value] || defaultIllumiation;
+  const currentIllumiation = computed(() => {
+    const currentPage = $slidev.nav.currentPage
+    return illumiationMap[$slidev?.configs?.themeConfig?.position?.[currentPage]] || defaultIllumiation
+  })
 </script>
 <style>
 .green-neon-light{
