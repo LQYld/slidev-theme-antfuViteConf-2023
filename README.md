@@ -4,7 +4,7 @@
 
 A reproduce the ppt style of antfu's speech at viteConf2023 theme for [Slidev](https://github.com/slidevjs/slidev).
 
-Live demo: [here](https://slidev-theme-antfu-vite-config-2023.fe-ecosphere.com/)
+Live demo: [here](https://slidev-theme-antfu-vite-conf-2023.fe-ecosphere.com/)
 
 ## Install
 
