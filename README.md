@@ -1,6 +1,6 @@
 # slidev-theme-antfuViteConf-2023
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-doli?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-doli)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-doli?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-antfu-vite-conf-2023)
 
 A reproduce the ppt style of antfu's speech at viteConf2023 theme for [Slidev](https://github.com/slidevjs/slidev).
 
