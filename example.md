@@ -1,7 +1,7 @@
 ---
 theme: ./
 layout: intro
-title: Slidev Doli Theme
+title: Slidev Theme antfuViteConf 2023
 colorSchema: 'dark'
 themeConfig:
  position: 
@@ -15,7 +15,7 @@ themeConfig:
   8: top-down
 ---
 
-# Doli theme <sup class="opacity-70 text-xl"><kbd>Universal</kbd></sup>
+# AntfuViteConf 2023 theme <sup class="opacity-70 text-xl"><kbd>Universal</kbd></sup>
 
 Suitable for various occasions and can help you easily create high-quality presentations
 
