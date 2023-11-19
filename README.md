@@ -1,4 +1,4 @@
-# slidev-theme-antfuViteConf 2023
+# slidev-theme-antfuViteConf-2023
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-doli?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-doli)
 
@@ -11,7 +11,7 @@ Live demo: [here](https://slidev-doli-theme.fe-ecosphere.com/)
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>doli</b>
+theme: <b>antfuViteConf-2023</b>
 ---</code></pre>
 
 It is also required to install the npm package vite-svg-loader and adding a vite.config.js in your project with the following:
