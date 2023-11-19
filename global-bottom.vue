@@ -1,9 +1,10 @@
 <template>
-  <div class="background-grow transition-all duration-600 ease-in-out green-neon-light opacity-50" :class="currentIllumiation" />
+  <div class="background-grow transition-all duration-600 ease-in-out green-neon-light opacity-50" :class="currentIllumiation" :style="{backgroundImage: currentLinearGradient}"/>
 </template>
 <script setup>
   import { computed } from "vue"
   const defaultIllumiation = `illumiation-right-up`;
+  const defaultLinearGradient = `linear-gradient(to right , rgb(207 200 89 / 1 ) 0% , rgb(77 189 127 / 1 ) 50% , rgb(77 189 172 / 1 ) 100%)`;
   const illumiationMap = {
     [`right-up`]: `illumiation-right-up`,
     [`right-middle`]: `illumiation-right-middle`,
@@ -18,11 +19,13 @@
     const currentPage = $slidev.nav.currentPage
     return illumiationMap[$slidev?.configs?.themeConfig?.position?.[currentPage]] || defaultIllumiation
   })
+  const currentLinearGradient = computed(() => {
+    return $slidev?.configs?.themeConfig?.linearGradient || defaultLinearGradient
+  })
 </script>
 <style>
 .green-neon-light{
   position: fixed;
-  background-image: linear-gradient(to right , rgb(207 200 89 / 1 ) 0% , rgb(77 189 127 / 1 ) 50% , rgb(77 189 172 / 1 ) 100%);
 }
 
 .illumiation-right-up{

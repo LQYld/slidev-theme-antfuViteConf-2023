@@ -30,6 +30,23 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
+### Custom light gradient color
+> Gradient color is implemented using CSS
+
+Gradient color default value: 
+```css
+.defaltLinearGradient {
+    background-image: linear-gradient(to right , rgb(207 200 89 / 1 ) 0% , rgb(77 189 127 / 1 ) 50% , rgb(77 189 172 / 1 ) 100%)
+}
+```
+
+```md
+---
+themeConfig:
+ linearGradient: 'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)'
+---
+```
+
 ### Configure lighting direction
 
 Provides 8 different angles of lighting directions
@@ -38,6 +55,7 @@ Provides 8 different angles of lighting directions
 ```md
 ---
 themeConfig:
+ linearGradient: 'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)'
  position: 
   1: right-up
   2: right-middle
