@@ -11,7 +11,7 @@ Live demo: [here](https://slidev-theme-antfu-vite-config-2023.fe-ecosphere.com/)
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>antfuViteConf-2023</b>
+theme: <b>antfu-vite-conf-2023</b>
 ---</code></pre>
 
 It is also required to install the npm package vite-svg-loader and adding a vite.config.js in your project with the following:
