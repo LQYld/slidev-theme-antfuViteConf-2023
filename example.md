@@ -258,4 +258,4 @@ class: "text-center"
 
 looking forward to our next encounter
 
-[👨🏻‍💻 Qingyun119](https://github.com/LQYld) / [💗 GitHub Repo](https://github.com/slidevjs/slidev)
+[👨🏻‍💻 Qingyun119](https://github.com/LQYld) / [💗 GitHub Repo](https://github.com/LQYld/slidev-theme-antfuViteConf-2023)

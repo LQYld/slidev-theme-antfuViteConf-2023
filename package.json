@@ -1,11 +1,15 @@
 {
   "name": "slidev-theme-antfu-vite-conf-2023",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "module",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LQYld/slidev-theme-antfuViteConf-2023.git"
+  },
   "engines": {
     "node": ">=18.0.0",
     "slidev": ">=0.19.3"
