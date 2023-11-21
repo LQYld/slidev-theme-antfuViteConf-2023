@@ -72,7 +72,7 @@ themeConfig:
 
 Start                       | End
 :-------------------------:|:-------------------------:
-![Start](./public/case-start.png) | ![End](./public/case-end.png)
+![Start](./public/case-1.png) | ![End](./public/case-8.png)
 
 ## Thank
 
