@@ -14,6 +14,7 @@
     [`left-up`]: `illumiation-left-up`,
     [`top-up`]: `illumiation-top-up`,
     [`top-down`]: `illumiation-top-down`,
+    [`none`]: ``,
   }
   const currentIllumiation = computed(() => {
     const currentPage = $slidev.nav.currentPage

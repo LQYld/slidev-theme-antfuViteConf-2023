@@ -49,7 +49,8 @@ themeConfig:
 
 ### Configure lighting direction
 
-Provides 8 different angles of lighting directions
+Provides 8 different angles of lighting directions 
+> The default value is right-up.
 > Number mapping in position matches ppt page number
 
 ```md
@@ -65,6 +66,17 @@ themeConfig:
   6: left-up
   7: top-up
   8: top-down
+---
+```
+
+You can also set it to none and it will not have any lighting
+
+```md
+---
+themeConfig:
+ linearGradient: 'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)'
+ position: 
+  1: none
 ---
 ```
 
