@@ -50,7 +50,8 @@ themeConfig:
 ### Configure lighting direction
 
 Provides 8 different angles of lighting directions 
-> The default value is right-up.
+> The default value is right-up
+
 > Number mapping in position matches ppt page number
 
 ```md
